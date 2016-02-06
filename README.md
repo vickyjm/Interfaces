@@ -1,2 +1,2 @@
 # Interfaces
-Proyecto de Interfaces
+Interfaz de una aplicación educativa para ciudades inteligentes
