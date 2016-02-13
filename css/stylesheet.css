@@ -1,0 +1,42 @@
+/* CSS para el estilo de las paginas */
+
+/*Colores:
+CultuPedia: #1e2742
+Opciones: #391944
+CultuNet: #561a1a
+CultuMap:
+Principal:
+
+Fuente: GeosansLight*/
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@font-face {font-family:GeosansLight; src: url('GeosansLight.ttf');}
+/*.page-header {
+	margin-top: 0px;
+	background: black;
+	color: white;
+	padding-top: 10px;
+	padding-right: 50px;
+	padding-bottom: 45px;
+	margin-bottom: -30px;
+	text-align: center;
+	.img-responsive {
+		float: left;
+		width: 7%;
+		height: 7%;
+		margin-left: 20px;
+	}
+}*/
+
+.categoria {
+	font-family : GeosansLight;
+	width : 50%;
+	text-align: left;
+	margin-top: 2%;
+}
+
+.glyphicon-globe {
+	float: left;
+}
+
