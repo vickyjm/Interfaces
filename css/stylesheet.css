@@ -93,6 +93,42 @@ Fuente: GeosansLight*/
 	height : 50px;
 }
 
+.cat-elem {
+	width : 35%;
+	height: 35%;
+	margin-left:35%;
+}
+
+.cat-row {
+	margin-top: 2%;
+}
+.cat-col {
+	width: 20%;
+}
+
+.cat-table {
+	width: 45%;
+	margin-left: 7%;
+}
+.cat-table, td, th {
+	border: 1px solid white;
+	margin-top: 1%;
+}
+
+.cat-elem-name {
+	margin-left : 7%;
+}
+
+.search-row {
+	margin-left : 5%;
+	margin-top: -2%;
+}
+
+.navi-search {
+	width : 15%;
+	height : 15%;
+	margin-top: 5%;
+}
 /* CULTUMAP */
 
 /* CULTUNET */
