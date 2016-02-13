@@ -29,6 +29,37 @@ Fuente: GeosansLight*/
 	}
 }*/
 
+/* LOADING */
+
+.loading-body {
+	background-color : #1e2742;
+}
+
+.loading-main {
+	padding-left: 20%;
+}
+
+.loading-img {
+	padding-left : 1.5%;
+}
+
+.navi-loading {
+	width : 40%;
+	height: 40%;
+}
+
+.progress {
+	width: 20%;
+	margin-top: 2%;
+	margin-left: 20%;
+}
+
+.progress-bar {
+	width : 60%;
+	min-width: 2em;
+}
+
+/* MAIN MENU */
 .mainMenu-body {
 	background-color : #1e2742;
 }
@@ -54,4 +85,12 @@ Fuente: GeosansLight*/
 .col-sm-3 {
 	margin-top : 2%;
 }
+
+/* CULTUPEDIA */
+
+/* CULTUMAP */
+
+/* CULTUNET */
+
+/* CONFIGURACION */
 
