@@ -29,6 +29,21 @@ Fuente: GeosansLight*/
 	}
 }*/
 
+.mainMenu-body {
+	background-color : #1e2742;
+}
+.main-title {
+	width : 52%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	text-align: left;
+}
+
+.title-img {
+	width : 20%;
+	height : 20%;
+}
+
 .categoria {
 	font-family : GeosansLight;
 	width : 50%;
@@ -36,7 +51,7 @@ Fuente: GeosansLight*/
 	margin-top: 2%;
 }
 
-.glyphicon-globe {
-	float: left;
+.col-sm-3 {
+	margin-top : 2%;
 }
 
