@@ -1,0 +1,48 @@
+CultuPedia (1/3) :
+	Bienvenido a la CultuPedia. En esta modalidad podras navegar por las distintas categorias
+	de elementos y lugares que se muestran en la pagina principal dela seleccion.
+
+	La informacion de cada categoria se ira revelando a medida que visites las ubicaciones de sus elementos teniendo un dispositivo con CultureNav instalado.
+
+	!Tambien puedes visitar una categoria aleatoria con este boton!.
+
+CultuPedia (2/3) :
+	En la pagina de cada categoria podras utilizar los botones en la parte inferior de la pantalla para organizar
+	los elementos que ves en pantalla o para obtener informacion de un elemento aleatoria con el boton (shuffle).
+
+	Tambien podrashacer uso de la barra de busqueda si deseas encontrar un elemento especifico.
+
+CultuPedia (3/3) :
+	Para ver informacion sobre un elemnto, puedes seleccionarlo. Esto abrira una ventana con una informacion
+	limitada del mismo, la cual estara disponible incluso si este no ha sido desbloqueado aun.
+
+	Al desbloquear un elemento, en la misma ventana se habilitaran opciones para buscar la ubicacion
+	del mismo con CultuMap, ir a la pagina del elemento en donde se encuentra toda la informacion del mismo,
+	e incluso marcarlo como favorito pulsando el circulo en la esquina de la foto del elemento.
+
+CultuMap (1/1) :
+	Bienvenido a CultuMap, en esta modalidad tendras la oportunidad de ver las ubicaciones de todos los
+	elementos de la CultuPedia que desees visitar. El mapa en el centro de la pantalla mostrara iconos 
+	para indicar la ubicacion de cada elemento. 
+
+	El cursor indica tu ubicacion actual, similar a un GPS. Seleccionar un elemento abrira un menu donde podras solicitar al sistema de GPS que te guie al lugar seleccionado.
+
+	Adicionalmente, los botones en la parte superior de la pantalla permitiran modificar el nivel de zoom del mapa o volver a tu posicion actual en caso de que no la encuentres. Los iconos en la parte inferior de la pantalla
+	te permitiran filtrar los elementos mostrados en el mapa por categoria.
+
+CultuNet (1/3) :
+	Bienvenido a CultuNet. En esta modalidad podras recibir y enviar lugares tanto a tus amigos como a desconocidos.
+
+	Esta vista corresponde a las notificaciones de lugares enviados por tus amigos. Podras ver cada uno y los mensajes que cada uno te haya escrito.
+
+CultuNet (2/3) :
+	Aqui veras maximo 3 notificaciones que recibes de desconocidos que tengan CultureNav y que hayan pasado cerca de ti con sus dispositivos.
+
+	Al darle click a algun lugar puedes decidir si aceptarlo o rechazarlo para incluirlo en tu Cultupedia, tambien puedes puedes darle a "Saltar Notificacion" para revisarlas luego.
+
+CultuNet (3/3) :
+	Lista de amigos con CultureNav. !Puedes enviarles tus sitios favoritos!.
+
+	Notificaciones pendientes. Al darle aqui vuelves al paso 1.
+
+	Selecciona los CultuLugares, escribe un mensaje y !listo! se enviara todo a tu amigo.
