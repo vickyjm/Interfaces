@@ -4,8 +4,9 @@
 CultuPedia: #1e2742
 Opciones: #391944
 CultuNet: #561a1a
-CultuMap:
-Principal:
+CultuMap: #442d1f
+Principal: #5a5a5a*/
+
 
 Fuente: GeosansLight*/
 
@@ -19,7 +20,7 @@ Fuente: GeosansLight*/
 /* LOADING */
 
 .loading-body {
-	background-color : #1e2742;
+	background-color : #5a5a5a;
 }
 
 .loading-main {
@@ -30,12 +31,15 @@ Fuente: GeosansLight*/
 .navi-loading {
 	width : 75%;
 	height: 75%;
+	margin-left: 10%;
 }
 
 .progress {
-	width: 40%;
+	width: 50%;
+	height: 40%;
 	margin-top: 2%;
-	margin-left: 10%;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
 .progress-bar {
@@ -44,11 +48,18 @@ Fuente: GeosansLight*/
 }
 
 /* MAIN MENU */
+
+.maintitle-img {
+	width: 55%;
+	height: 55%;
+	margin-right: 20%;
+	margin-top: -1%;
+}
 .mainMenu-body {
 	background-color : #1e2742;
 }
 .main-title {
-	width : 90%;
+	width : 100%;
 	margin-bottom: 1%;
 	margin-top: 1%;
 	text-align: left;
@@ -62,6 +73,7 @@ Fuente: GeosansLight*/
 .title-img {
 	width : 15%;
 	height : 15%;
+	margin-right: 10%;
 }
 
 .categoria {
@@ -82,8 +94,11 @@ Fuente: GeosansLight*/
 }
 /* CULTUPEDIA */
 
+.cultupedia-body {
+	background-color: #1e2742;
+}
 .cat-title-img {
-	width : 50%;
+	width : 90%;
 	margin-left: -5%;
 	padding-top: 5%;
 }
@@ -91,10 +106,28 @@ Fuente: GeosansLight*/
 	width: 90%;
 }
 .shuffle-btn {
-	width : 50%;
-	height : 50px;
+	width : 40%;
+	height : 10%;
 }
 
+.navi-cat {
+	width: 40%;
+	height: 40%;
+}
+.main-shuffle {
+	margin-left: 50%;
+	margin-top: -50%;
+}
+
+.glyphicon-random {
+	width: 100%;
+	height: 50%;
+}
+
+.cat-title {
+	width : 80%;
+	margin-left: -7%;
+}
 .cat-elem {
 	width : 35%;
 	height: 35%;
@@ -106,9 +139,7 @@ Fuente: GeosansLight*/
 }
 
 .cat-table {
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
+	width: 100%;
 }
 .cat-table, td, th {
 	border: 1px solid white;
@@ -119,41 +150,104 @@ Fuente: GeosansLight*/
 	margin-left : 44%;
 }
 
-.search-bar {
-	padding-top: 20%;
+.form-control { 
+	width: 75%;
 }
-.search-row {
-	margin-left: 2%;
-}
-
 .navi-search {
 	width : 16%;
 	height : 16%;
-	margin-top:-2%;
-	margin-right: -2%;
+	margin-top:-18%;
 }
 
 .search-title-img {
-	width : 10%;
-	height : 10%;
-
+	width : 15%;
+	height : 15%;
 	margin-top: 6%;
-}
-
-.checkbox-col {
-	padding-left: 2.5%;
 }
 
 .glyphicon-font, .glyphicon-certificate, .glyphicon-star {
 	color: white;
+}
+
+.cat-shuffle {
+	margin-left: 60%;
+	margin-top: -20%;
+}
+
+.checkbox2 {
+	margin-left: 15%;
+	margin-top: -8%;
+}
+
+.checkbox3 {
+	margin-left: 30%;
+	margin-top: -7.5%;
 }
 /* CULTUMAP */
 
 /* CULTUNET */
 
 /* CONFIGURACION */
+.config-body {
+	background-color :#391944;
+}
+
+.panel > .ph-gen {
+	background-image: none;
+	background-color :#5a5a5a;
+	color: white;
+}
+
+.panel > .ph-pedia {
+	background-image: none;
+	background-color :#1e2742;
+	color: white;
+}
+
+.panel > .ph-map {
+	background-image: none;
+	background-color :#442d1f;
+	color: white;
+}
+
+.panel > .ph-net {
+	background-image: none;
+	background-color :#561a1a;
+	color: white;
+}
 
 .panel-config {
-	width : 50%;
+	width : 90%;
 	font-family : GeosansLight;
+}
+
+.config-icon {
+	height: 20%;
+	width: 20%;
+	margin-left: 5%;
+}
+
+.config-icon2 {
+	height: 12%;
+	width: 12%;
+	margin-left: 5%;
+}
+.config-elem1 {
+	width : 25%;
+	height: 25%;
+	margin-left: 2%;
+}
+
+.config-elem2 {
+	width : 25%;
+	height: 25%;
+	margin-left: 37%;
+	margin-top: -18.5%;
+}
+
+.config-elem3 {
+	width : 25%;
+	height: 25%;
+	margin-left:72%;
+	margin-top: -18.5%;
 }
