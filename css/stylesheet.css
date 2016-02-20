@@ -128,10 +128,23 @@ Fuente: GeosansLight*/
 	width : 80%;
 	margin-left: -7%;
 }
+
+.museo-elem {
+	width : 75px;
+	height: 75px;
+	margin-left: 20%;
+}
+
+.museo-elem-name {
+	margin-left : 7%;
+	color: white;
+	font-family : GeosansLight;
+}
+
 .cat-elem {
-	width : 35%;
-	height: 35%;
-	margin-left:35%;
+	width : 75px;
+	height: 75px;
+	margin-left:12%;
 }
 
 .cat-col {
@@ -147,7 +160,9 @@ Fuente: GeosansLight*/
 }
 
 .cat-elem-name {
-	margin-left : 44%;
+	margin-left : 7%;
+	color: white;
+	font-family : GeosansLight;
 }
 
 .form-control { 
@@ -183,6 +198,39 @@ Fuente: GeosansLight*/
 	margin-left: 30%;
 	margin-top: -7.5%;
 }
+
+.item {
+	margin-left: 12%;
+}
+
+.carousel-inner {
+	height:50%;
+}
+
+.item-long-desc {
+	color: white;
+	font-family : GeosansLight;
+}
+
+.elems-title-img {
+	width : 85%;
+	margin-left: -1%;
+	padding-top: 5%;
+	margin-bottom: 0.5%;
+}
+
+.elem-elem-name {
+	margin-left : 10%;
+	color: white;
+	font-family : GeosansLight;
+}
+
+.elem-elem-img {
+	width: 75px;
+	height: 100px;
+	margin-left: 10%;
+}
+
 /* CULTUMAP */
 
 /* CULTUNET */
