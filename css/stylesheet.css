@@ -303,3 +303,8 @@ Fuente: GeosansLight*/
 	margin-left:72%;
 	margin-top: -18.5%;
 }
+
+p {
+	font-family : GeosansLight;
+	text-align:justify;
+}

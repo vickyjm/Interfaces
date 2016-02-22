@@ -37,7 +37,7 @@
                     <tr>
                         <td>
                             <p>
-                                <a href="./Louvre.html">
+                                <a data-toggle="modal" data-target="#modalLouvre">
                                     <img src="../img/Sitios/LouvreMain.jpg" alt="NaviLoading" 
                                     align="middle" class="museo-elem img-responsive">
                                 </a>
@@ -179,6 +179,46 @@
                     </a>
                 </div>
             </div>
+        </div>
+
+        <div id="modalLouvre" class="modal fade" role="dialog">
+          <div class="modal-dialog" style="width:300px;">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Museo del Louvre</h4>
+              </div>
+              <div class="modal-body">
+                <img src="../img/Sitios/LouvreMain.jpg" alt="NaviLoading" 
+                                    style="float:left;margin-right:20px;" class="img-responsive"  height="100" width="100">
+                <p><ul class="list-unstyled">
+                    <li><strong>Dirección:</strong> 75001 París, Francia</li>
+                    <li><strong>Inauguración:</strong> 1792</li>
+                    <li><strong>Horario:</strong>
+                            <ul class="list-unstyled">
+                            <li>Lunes, Miércoles y Viernes: 9-18 </li>
+                            <li>Jueves, Sábado y Domingo: 9-22 </li>
+                            <li>Martes: Cerrado</li> 
+                            </ul>
+                    </li>
+                    <li><strong>Teléfono:</strong> +33 1 40 20 50 50</li>
+                </ul></p><br>
+                <p style="text-align:justify;">
+                    El Museo del Louvre es el museo nacional de Francia consagrado al arte anterior al impresionismo, tanto bellas artes como arqueología y artes decorativas. Es uno de los más importantes del mundo.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                 <ul class="pager">
+                  <li class="previous"><a href="./Louvre.html">Más Info</a></li>
+                  <li class="next"><a href="#">Ubicación</a></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
         </div>
         <!-- Get jquery and bootstrap JS -->
         <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
