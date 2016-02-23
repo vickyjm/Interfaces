@@ -309,6 +309,78 @@ p {
 	text-align:justify;
 }
 
+.selec-cont {
+	margin-top: 10%;
+}
+
+.selec-btn1 {
+	margin-top: 2%;
+	padding: 0% 31%;
+}
+
+.selec-btn2 {
+	margin-top: 10%;
+}
+
+.selec-btn3 {
+	margin-top: 10%;
+	padding: 0% 48%;
+}
+
+.selec-btn4 {
+	margin-top: 10%;
+	padding: 0% 30%;
+}
+
+.selec-btn5 {
+	margin-top: 10%;
+	padding: 0% 54%;
+}
+
+.selec-btn6 {
+	margin-top: 10%;
+	padding: 0% 18%;
+}
+
+.selec-search-bar {
+	margin-left: 5%;
+	width: 50%;
+}
+
+.selec-col {
+	margin-left: 7%;
+}
+.selec-table {
+	width: 100%;
+}
+.selec-table, td, th {
+	border: 1px solid white;
+	margin-top: 0.2%;
+}
+
+.selec-elem {
+	width: 75px;
+	height: 75px;
+	margin-left: 7px;
+}
+
+.selec-elem-name {
+	margin-left : 7%;
+	color: white;
+	font-family : GeosansLight;
+	font-size: 11;
+}
+.listo-btn {
+	margin-left: 60%;
+	margin-top: 25%;
+}
+
+.navi-selec {
+	margin-top: 15%;
+	width: 80%;
+	height: 80%;
+}
+
 #footer {
    position:fixed;
    left:0px;
