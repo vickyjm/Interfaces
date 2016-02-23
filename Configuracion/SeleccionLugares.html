@@ -11,7 +11,7 @@
     </head>
     <body class="config-body">
         <div class="container">
-            <img src="../img/CultuPedia/categorias.png" alt-"Categorias"
+            <img src="../img/lugaresFavoritos.png" alt-"Categorias"
             align="left" class="cat-title img-responsive">
             <img src="../img/opcionesIconBlanco.png" alt="LibroCat" 
             align="right" class="title-img img-responsive">
@@ -24,29 +24,29 @@
             </div>
             <div class="row">
                 <div class="col-xs-3">
-                    <a href="#" class="selec-btn1 btn btn-default"role="button">
+                    <a href="#" class="selec-btn1 btn btn-default" role="button" onclick='show("biblio");'>
                         Bibliotecas
                     </a>
-                    <a href="#" class="selec-btn2 btn btn-default"role="button">
+                    <a href="#" class="selec-btn2 btn btn-default"role="button" onclick='show("esculturas");'>
                         <p>Esculturas y <br>
                         Monumentos</p>
                     </a>
-                    <a href="#" class="selec-btn3 btn btn-default"role="button">
+                    <a href="#" class="selec-btn3 btn btn-default"role="button" onclick='show("museos");'>
                         Museos
                     </a>
-                    <a href="#" class="selec-btn4 btn btn-default"role="button">
+                    <a href="#" class="selec-btn4 btn btn-default"role="button" onclick='show("parques");'>
                         <p>Parques<br>
                         Nacionales</p>
                     </a>
-                    <a href="#" class="selec-btn5 btn btn-default"role="button">
+                    <a href="#" class="selec-btn5 btn btn-default"role="button" onclick='show("plazas");'>
                         Plazas
                     </a>
-                    <a href="#" class="selec-btn6 btn btn-default"role="button">
+                    <a href="#" class="selec-btn6 btn btn-default"role="button" onclick='show("restaurant");'>
                         Restaurantes
                     </a>
                 </div>
                 <div class="selec-col col-xs-8">
-                    <div class="table-responsive">
+                    <div class="table-responsive" id="biblio">
                         <table class="selec-table table table-bordered">
                             <thead>
                             </thead>
@@ -57,36 +57,111 @@
                                             <img src="../img/Sitios/BiblioMain.jpg" alt="NaviLoading" 
                                             align="middle" class="selec-elem img-responsive">
                                             <div class="selec-elem-name" align="middle">
-                                                Elem 1
-                                            </div>
-                                        </p>
-                                    </td>
-                                    <td>
-                                        <p>
-                                            <img src="../img/Sitios/LouvreMain.jpg" alt="NaviLoading" 
-                                            align="middle" class="selec-elem img-responsive">
-                                            <div class="selec-elem-name" align="middle">
-                                                Elem 1
+                                                Biblioteca del Congreso de Estados Unidos
                                             </div>
                                         </p>
                                     </td>
                                 </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-responsive" id="esculturas">
+                        <table class="selec-table table table-bordered">
+                            <thead>
+                            </thead>
+                            <tbody>
                                 <tr>
                                     <td>
                                         <p>
-                                            <img src="../img/Sitios/BiblioMain.jpg" alt="NaviLoading" 
+                                            <img src="../img/Sitios/CristoRedMain.jpg" alt="NaviLoading" 
                                             align="middle" class="selec-elem img-responsive">
                                             <div class="selec-elem-name" align="middle">
-                                                Elem 1
+                                                Cristo Redentor
                                             </div>
                                         </p>
                                     </td>
                                     <td>
                                         <p>
+                                            <img src="../img/Sitios/ArcoTriunfoMain.jpg" alt="NaviLoading" 
+                                            align="middle" class="selec-elem img-responsive">
+                                            <div class="selec-elem-name" align="middle">
+                                                Arco de Triunfo
+                                            </div>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-responsive" id="museos">
+                        <table class="selec-table table table-bordered">
+                            <thead>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p>
                                             <img src="../img/Sitios/LouvreMain.jpg" alt="NaviLoading" 
                                             align="middle" class="selec-elem img-responsive">
                                             <div class="selec-elem-name" align="middle">
-                                                Elem 1
+                                                Museo del Louvre
+                                            </div>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-responsive" id="parques">
+                        <table class="selec-table table table-bordered">
+                            <thead>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p>
+                                            <img src="../img/Sitios/CanaimaMain.jpg" alt="NaviLoading" 
+                                            align="middle" class="selec-elem img-responsive">
+                                            <div class="selec-elem-name" align="middle">
+                                                Parque Nacional Canaima
+                                            </div>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-responsive" id="plazas">
+                        <table class="selec-table table table-bordered">
+                            <thead>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p>
+                                            <img src="../img/Sitios/ObradoiroMain.jpg" alt="NaviLoading" 
+                                            align="middle" class="selec-elem img-responsive">
+                                            <div class="selec-elem-name" align="middle">
+                                                Plaza del Obradoiro
+                                            </div>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-responsive" id="restaurant">
+                        <table class="selec-table table table-bordered">
+                            <thead>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p>
+                                            <img src="../img/Sitios/MugaritzMain.jpg" alt="NaviLoading" 
+                                            align="middle" class="selec-elem img-responsive">
+                                            <div class="selec-elem-name" align="middle">
+                                                Mugaritz
                                             </div>
                                         </p>
                                     </td>
@@ -99,7 +174,7 @@
         </div>
         <div class="row">
             <div class="col-xs-5">
-                <a href="#" class="listo-btn btn btn-default"role="button">
+                <a href="./ConfiguracionMain.html" class="listo-btn btn btn-default"role="button">
                     Listo
                 </a>
             </div>
@@ -108,5 +183,30 @@
                 align="right" class="navi-selec img-responsive">
             </div>
         </div>
+
+        <div id="footer">
+            <a href="../MainMenu.html" >
+              <img src="../img/backIcon.png" alt="Regresar" class="img-responsive backIcon">
+            </a>
+            <a href="../MainMenu.html">
+              <img src="../img/homeIcon.png" alt="Inicio" class="img-responsive homeIcon">
+            </a>
+        </div>
+
+
+        <!-- Get jquery and bootstrap JS -->
+        <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            function show(n) {
+                document.getElementById("biblio").style.display="none";
+                document.getElementById("esculturas").style.display="none";
+                document.getElementById("museos").style.display="none";
+                document.getElementById("parques").style.display="none";
+                document.getElementById("plazas").style.display="none";
+                document.getElementById("restaurant").style.display="none";
+                document.getElementById(n).style.display="block";
+            }
+        </script> 
     </body>
 </html>

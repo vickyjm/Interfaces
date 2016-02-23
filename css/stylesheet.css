@@ -403,3 +403,7 @@ p {
 	margin-right: 80px;
 	top:10px;
 }
+
+#esculturas, #museos, #parques, #plazas, #restaurant {
+	display: none;
+}
