@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Cultupedia</title>
+
+        <!-- Get bootstrap CSS -->
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body class="config-body">
+        <!-- Fixed navbar -->
+<!--         <ul class="nav navbar-nav">
+            <li><a href="./prueba2.html">Home</a></li>
+        </ul> -->
+        <div class="container">
+            <img src="../img/configuracion.png" alt="Configuración"
+            align="left" class="cat-title img-responsive">
+            <img src="../img/opcionesIconBlanco.png" alt="LibroCat" 
+            align="right" class="title-img img-responsive">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="panel-config panel panel-default">
+                    <div class="panel-heading ph-gen"> Configuración General</div>
+                    <div class="panel-body">
+                        <div>
+                            Volumen de Navi
+                        </div>
+                        <div>
+                            <span class="glyphicon glyphicon-volume-down" aria-hidden="true" style="display:inline;">
+                            </span><input type="range" name="slider-3" id="slider-3" value="5" min="0" max="20" data-theme="b" data-track-theme="a" style="width:100px;display:inline;">
+                            <span class="glyphicon glyphicon-volume-up" aria-hidden=" true"style="display:inline;"></span>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                Notificaciones:
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="Checkbox">
+                                    <label>
+                                        <input type="checkbox" value="">Activar</label>
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="Checkbox">
+                                    <label>
+                                        <input type="checkbox" value="">Vibrar</label>
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="Checkbox">
+                                    <label>
+                                        <input type="checkbox" value="">Mensajes</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            Volumen de Notificaciones
+                        </div>
+                        <div>
+                            <span class="glyphicon glyphicon-volume-down" aria-hidden="true" style="display:inline;">
+                            </span><input type="range" name="slider-3" id="slider-3" value="5" min="0" max="20" data-theme="b" data-track-theme="a" style="width:100px;display:inline;">
+                            <span class="glyphicon glyphicon-volume-up" aria-hidden=" true"style="display:inline;"></span>
+                        </div>
+                        <div>
+                            <span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+                            Cambiar cuenta de Facebook
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="panel-config panel panel-default">
+                    <div class="panel-heading ph-pedia"> Configuración CultuPedia</div>
+                    <div class="panel-body">
+                        Selecciona las categorías que te interesan en tu Cultupedia
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <div class="Checkbox">
+                                    <label>
+                                        <input type="checkbox" value=""><img class ="config-icon" border="0" alt="BibliotecasMenu" src="../img/CultuPedia/biblioIcon.png"></label>
+                                </div>
+                                <div class="Checkbox">
+                                    <label><input type="checkbox" value=""><img class ="config-icon" border="0" alt="BibliotecasMenu" src="../img/CultuPedia/parquesIcon.png"></label>
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="Checkbox">
+                                    <label><input type="checkbox" value=""><img class ="config-icon" border="0" alt="BibliotecasMenu" src="../img/CultuPedia/esculturasIcon.png"></label>
+                                </div>
+                                <div class="Checkbox">
+                                    <label><input type="checkbox" value=""><img class ="config-icon" border="0" alt="BibliotecasMenu" src="../img/CultuPedia/plazasIcon.png"></label>
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="Checkbox">
+                                    <label><input type="checkbox" value=""><img class ="config-icon" border="0" alt="BibliotecasMenu" src="../img/CultuPedia/museosIcon.png"></label>
+                                </div>
+                                <div class="Checkbox">
+                                    <label><input type="checkbox" value=""><img class ="config-icon2" border="0" alt="BibliotecasMenu" src="../img/CultuPedia/restaurantIcon.png"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="panel-config panel panel-default">
+                    <div class="panel-heading ph-map"> Configuración CultuMap</div>
+                    <div class="panel-body">
+                        <div class="col-lg-4">
+                            <div class="Checkbox">
+                                <label><input type="checkbox" value="">Permitir uso de GPS</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="panel-config panel panel-default">
+                    <div class="panel-heading ph-net"> Configuración CultuNet </div>
+                    <div class="panel-body">
+                        <div class="Checkbox">
+                            <label>
+                                <input type="checkbox" value="">Recibir CultuLugares de Amigos</label>
+                        </div>
+                        <div class="Checkbox">
+                            <label>
+                                <input type="checkbox" value="">Recibir CultuLugares de Desconocidos</label>
+                        </div>
+                        <div>
+                            Seleccionar CultuLugares para compartir
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <a href="./SeleccionLugares.html">
+                                    <img src="../img/Sitios/ArcoTriunfoMain.jpg" alt="NaviLoading" 
+                                    align="middle" class="config-elem4 img-responsive">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4">
+                                    <a href="./SeleccionLugares.html">
+                                    <img src="../img/Sitios/LouvreMain.jpg" alt="NaviLoading" 
+                                    align="middle" class="config-elem5 img-responsive">
+                                    </a>
+                                </div>
+                                <div class="col-sm-4">
+                                    <a href="./SeleccionLugares.html">
+                                    <img src="../img/Sitios/CristoRedMain.jpg" alt="NaviLoading" 
+                                    align="middle" class="config-elem6 img-responsive">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <a href="./SeleccionLugares.html" >
+              <img src="../img/backIcon.png" alt="Regresar" class="img-responsive backIcon">
+            </a>
+            <a href="../MainMenu.html">
+              <img src="../img/homeIcon.png" alt="Inicio" class="img-responsive homeIcon">
+            </a>
+        </div>
+
+
+        <!-- Get jquery and bootstrap JS -->
+        <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </body>
+</html>

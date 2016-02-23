@@ -42,7 +42,15 @@
                                     align="middle" class="museo-elem img-responsive">
                                 </a>
                                 <div class="museo-elem-name">
-                                    Museo del Louvre
+                                    Museo del Louvre <br>
+                                <a href="#" id="noFavorito" onclick='favoritos("noFavorito","favorito");'>
+                                    <span class="glyphicon glyphicon-star-empty favorito" aria-hidden="true"
+                                    style="margin-left:45%;"></span>
+                                </a>
+                                <a href="#" id="favorito" onclick='favoritos("favorito","noFavorito");'>
+                                    <span class="glyphicon glyphicon-star favorito" aria-hidden="true"
+                                    style="margin-left:45%;"></span>
+                                </a>
                                 </div>
                             </p>
                         </td>
@@ -312,5 +320,14 @@
         <!-- Get jquery and bootstrap JS -->
         <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
         <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            function show(modal1) {
+                $('#'+modal1).modal('hide');
+            }
+            function favoritos(icono1,icono2){
+                $('#'+icono1).hide();
+                $('#'+icono2).show();
+            }
+        </script>
     </body>
 </html>
