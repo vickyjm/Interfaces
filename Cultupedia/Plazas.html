@@ -25,8 +25,8 @@
                 </form>
             </div>
             <div class="col-sm-2">
-                <img src="../img/naviEsquina.png" alt="NaviSearch" 
-                align="right" class="navi-search img-responsive">
+                <a data-toggle="modal" data-target="#tutorialCultuPedia"><img src="../img/naviEsquina.png" alt="NaviSearch" 
+                align="right" class="navi-search img-responsive"></a>
             </div>
         </div>
         <div class="table-responsive">
@@ -205,6 +205,86 @@
                  <ul class="pager">
                   <li class="previous"><a href="./Obradoiro.html">Más Info</a></li>
                   <li class="next"><a href="#">Ubicación</a></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div id="tutorialCultuPedia" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Tutorial de CultuPedia</h4>
+              </div>
+              <div class="modal-body">
+                <p>Bienvenido a la CultuPedia. En esta modalidad podrás navegar por las distintas categorías
+                    de elementos y lugares que se muestran en la página principal de la selección.</p>
+                <p>
+                    La información de cada categoría se irá revelando a medida que visites las ubicaciones de sus elementos teniendo un dispositivo con CultureNav instalado.
+                </p>
+                <p>
+                ¡También puedes visitar una categoria aleatoria con este botón!
+                </p>
+              </div>
+              <div class="modal-footer">
+                 <ul class="pager">
+                  <li class="next"><a data-target="#tutorialCultuPedia2" data-toggle="modal" onclick='show("tutorialCultuPedia");'>Siguiente</a></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div id="tutorialCultuPedia2" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Tutorial de CultuPedia 2</h4>
+              </div>
+              <div class="modal-body">
+                <p>En la página de cada categoría podrás utilizar los botones en la parte inferior de la pantalla para organizar
+    los elementos que ves en pantalla o para obtener información de un lugar aleatorio con el boton (shuffle).</p>
+                <p>
+                    También podrás hacer uso de la barra de búsqueda si deseas encontrar un lugar específico.
+                </p>
+              </div>
+              <div class="modal-footer">
+                 <ul class="pager">
+                  <li class="previous"><a data-target="#tutorialCultuPedia" data-toggle="modal" onclick='show("tutorialCultuPedia2");'>Anterior</a></li>
+                  <li class="next"><a data-target="#tutorialCultuPedia3" data-toggle="modal" onclick='show("tutorialCultuPedia2");'>Siguiente</a></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div id="tutorialCultuPedia3" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Tutorial de CultuPedia 3</h4>
+              </div>
+              <div class="modal-body">
+                <p>Para ver información sobre un lugar debes seleccionarlo. Esto abrirá una ventana con una información
+    limitada del mismo, la cual estará disponible incluso si este no ha sido desbloqueado aún.</p>
+                <p>
+                    Al desbloquear un elemento, en la misma ventana se habilitarán opciones para buscar la ubicación
+                    del mismo con CultuMap, ir a la página del elemento en donde se encuentra toda la información del mismo,
+                    e incluso marcarlo como favorito pulsando el circulo en la esquina de la foto del elemento.
+                </p>
+              </div>
+              <div class="modal-footer">
+                 <ul class="pager">
+                  <li class="previous"><a data-target="#tutorialCultuPedia2" data-toggle="modal" onclick='show("tutorialCultuPedia3");'>Anterior</a></li>
                 </ul>
               </div>
             </div>
