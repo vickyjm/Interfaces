@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>CultuPedia</title>
+
+        <!-- Get bootstrap CSS -->
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body class="cultunet-body">
+        <div class="container">
+                <img src="../img/CultuNet/tituloAmigos.png" alt="LibroCat" 
+                align="left" class="cat-title-img img-responsive">
+                <img src="../img/cultuNetIconBlanco.png" alt="LibroCat" 
+                align="right" class="search-title-img img-responsive">
+        </div>
+        <div class="container">
+            <div class="row user-row">
+                <div  class="col-xs-4 pic-col">
+                    <img src="../img/CultuNet/usuario1.jpg" align="right" alt="user1" class="user-img img-responsive">
+                    <div class="noti-name">
+                        Jimmy Jones
+                    </div>
+                </div>
+                <div class="col-xs-3 noti-col">
+                    <img src="../img/CultuNet/usuario1.jpg" align="right" alt="user1" class="user-img img-responsive">
+                    <div class="noti-name">
+                        Sitio 1
+                    </div>
+                </div>
+                <div class="col-xs-3 noti-col">
+                    <img src="../img/CultuNet/usuario1.jpg" align="right" alt="user1" class="user-img img-responsive">
+                    <div class="noti-name">
+                        Sitio 2
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <img src="../img/CultuNet/barraNotificacion.png" align="left" alt="barra" class="separador img-responsive">
+            </div>
+            <div class="row user-row">
+                <div  class="col-xs-4 pic-col">
+                    <img src="../img/CultuNet/usuario3.jpg" align="right" alt="user1" class="user-img img-responsive">
+                    <div class="noti-name">
+                        Futbolero #1
+                    </div>
+                </div>
+                <div class="col-xs-3 noti-col">
+                    <img src="../img/CultuNet/usuario3.jpg" align="right" alt="user1" class="user-img img-responsive">
+                    <div class="noti-name">
+                        Sitio 3
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="container">
+                <img src="../img/CultuNet/tituloDesconocidos.png" alt="LibroCat" 
+                align="left" class="cat-title-img img-responsive">
+        </div>
+        <div class="container">
+            <div class="row user-row">
+                <div  class="col-xs-4 pic-col">
+                    <img src="../img/CultuNet/usuario6.jpg" align="right" alt="user1" class="user-img img-responsive">
+                    <div class="noti-name">
+                        Angelica Pickles
+                    </div>
+                </div>
+                <div class="col-xs-3 noti-col">
+                    <img src="../img/CultuNet/usuario6.jpg" align="right" alt="user1" class="user-img img-responsive">
+                    <div class="noti-name">
+                        Sitio 1
+                    </div>
+                </div>
+                <div class="col-xs-3 noti-col">
+                    <img src="../img/CultuNet/usuario6.jpg" align="right" alt="user1" class="user-img img-responsive">
+                    <div class="noti-name">
+                        Sitio 2
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <img src="../img/CultuNet/barraNotificacion.png" align="left" alt="barra" class="separador img-responsive">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-5">
+                    <img src="../img/navi.png" align="right" alt="naviNet" class="navi-cultunet img-responsive">
+                </div>
+                <div class="col-xs-5 btn-col">
+                    <a class="btn btn-default" href="./CultunetMain.html" role="button">Saltar Notificaciones</a>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <a href="../MainMenu.html">
+              <img src="../img/backIcon.png" alt="Regresar" class="img-responsive backIcon">
+            </a>
+            <a href="../MainMenu.html">
+              <img src="../img/homeIcon.png" alt="Inicio" class="img-responsive homeIcon">
+            </a>
+        </div>
+        <!-- Get jquery and bootstrap JS -->
+        <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            function show(modal1) {
+                $('#'+modal1).modal('hide');
+            }
+            function favoritos(icono1,icono2){
+                $('#'+icono1).hide();
+                $('#'+icono2).show();
+            }
+        </script>
+    </body>
+</html>

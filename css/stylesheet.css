@@ -242,7 +242,71 @@ Fuente: GeosansLight*/
 
 /* CULTUMAP */
 
+.cultumap-body {
+	background-color:#442d1f; 
+}
+.cultumap-title-main {
+	width : 90%;
+	margin-left: -5%;
+	padding-top: 5%;
+}
+
+.zoom {
+	color : white;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left:15px;
+}
+
+.navi-cultumap {
+	width: 100px;
+	height: 100px;
+	margin-left: 20px;
+}
+
+.cultumap-map {
+	margin-bottom: 10px;
+}
 /* CULTUNET */
+
+
+.cultunet-body {
+	background-color: #561a1a;
+}
+
+.navi-cultunet {
+	width: 125px;
+	height: 125px;
+}
+
+.name-col {
+	color: white;
+	margin-top: 20px;
+}
+
+.gift-col {
+	margin-top:15px;
+	color: white;
+}
+
+.glyphicon-gift {
+	font-size: 25px;
+	color: white;
+}
+
+.separador {
+	width: 80%;
+}
+
+.noti-name {
+	color: white;
+}
+
+.btn-col {
+	margin-top: 40px;
+}
+
 
 /* CONFIGURACION */
 .config-body {
@@ -379,10 +443,6 @@ p {
 .selec-table {
 	width: 100%;
 }
-
-/*.selec-table2 {
-	width: 50%;
-}*/
 
 .selec-table, td, th {
 	border: 1px solid white;
