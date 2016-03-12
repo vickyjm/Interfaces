@@ -307,7 +307,9 @@ Fuente: GeosansLight*/
 	margin-top: 40px;
 }
 
-
+.mensaje-text {
+	width: 200px;
+}
 /* CONFIGURACION */
 .config-body {
 	background-color :#391944;
@@ -400,7 +402,7 @@ p {
 }
 
 .selec-cont {
-	margin-top: 10%;
+	margin-top: 2%;
 }
 
 .selec-btn1 {

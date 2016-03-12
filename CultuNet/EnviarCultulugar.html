@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Cultupedia</title>
+
+        <!-- Get bootstrap CSS -->
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body class="cultunet-body">
+        <div class="container">
+            <img src="../img/CultuNet/enviarLugar.png" alt="Categorias"
+            align="left" class="cat-title img-responsive">
+            <img src="../img/cultunetIconBlanco.png" alt="LibroCat" 
+            align="right" class="title-img img-responsive">
+        </div>
+        <div class="row">
+            <div class="col-xs-3 pic-col" style="margin-left: 17px; margin-top: 25px;">
+                <img src="../img/CultuNet/usuario1.jpg" align="right" alt="user1" class="user-img img-responsive">
+            </div>
+            <div class="col-xs-6">
+                <fieldset class="form-group" style="color:white;">
+                    <label for="exampleTextarea">Escribe tu mensaje aqui</label>
+                    <textarea class="form-control mensaje-text" id="exampleTextarea" rows="3"></textarea>
+                </fieldset>
+            </div>
+        </div>
+        <div class="selec-cont container">
+            <div class="row">
+                <div class="selec-search-bar form-group">
+                    <input type="text" class="form-control" placeholder="Buscar">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-3">
+                    <a href="#" class="selec-btn1 btn btn-default" role="button" onclick='show("biblio");'>
+                        Bibliotecas
+                    </a>
+                    <a href="#" class="selec-btn2 btn btn-default"role="button" onclick='show("esculturas");'>
+                        <p>Esculturas y <br>
+                        Monumentos</p>
+                    </a>
+                    <a href="#" class="selec-btn3 btn btn-default"role="button" onclick='show("museos");'>
+                        Museos
+                    </a>
+                    <a href="#" class="selec-btn4 btn btn-default"role="button" onclick='show("parques");'>
+                        <p>Parques<br>
+                        Nacionales</p>
+                    </a>
+                    <a href="#" class="selec-btn5 btn btn-default"role="button" onclick='show("plazas");'>
+                        Plazas
+                    </a>
+                    <a href="#" class="selec-btn6 btn btn-default"role="button" onclick='show("restaurant");'>
+                        Restaurantes
+                    </a>
+                </div>
+                <div class="selec-col col-xs-8">
+                    <div class="table-responsive" id="biblio">
+                        <table class="selec-table table table-bordered">
+                            <thead>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p>
+                                            <img src="../img/Sitios/BiblioMain.jpg" alt="NaviLoading" 
+                                            align="middle" class="selec-elem2 img-responsive">
+                                            <div class="selec-elem-name2" align="middle">
+                                                <p>Biblioteca del <br>
+                                                Congreso de <br>
+                                                Estados Unidos</p>
+                                            </div>
+                                            <div class="Checkbox selec-checkbox2">
+                                                <label><input type="checkbox" value=""></label>
+                                            </div>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-responsive" id="esculturas">
+                        <table class="selec-table table table-bordered">
+                            <thead>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p>
+                                            <img src="../img/Sitios/CristoRedMain.jpg" alt="NaviLoading" 
+                                            align="middle" class="selec-elem img-responsive">
+                                            <div class="selec-elem-name" align="middle">
+                                                Cristo<br> Redentor
+                                            </div>
+                                            <div class="Checkbox selec-checkbox">
+                                                <label><input type="checkbox" value=""></label>
+                                            </div>
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p>
+                                            <img src="../img/Sitios/ArcoTriunfoMain.jpg" alt="NaviLoading" 
+                                            align="middle" class="selec-elem img-responsive">
+                                            <div class="selec-elem-name" align="middle">
+                                                Arco de <br> Triunfo
+                                            </div>
+                                            <div class="Checkbox selec-checkbox">
+                                                <label><input type="checkbox" value=""></label>
+                                            </div>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-responsive" id="museos">
+                        <table class="selec-table table table-bordered">
+                            <thead>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p>
+                                            <img src="../img/Sitios/LouvreMain.jpg" alt="NaviLoading" 
+                                            align="middle" class="selec-elem2 img-responsive">
+                                            <div class="selec-elem-name4" align="middle">
+                                                Museo del<br>Louvre
+                                            </div>
+                                            <div class="Checkbox selec-checkbox2">
+                                                <label><input type="checkbox" value=""></label>
+                                            </div>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-responsive" id="parques">
+                        <table class="selec-table table table-bordered">
+                            <thead>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p>
+                                            <img src="../img/Sitios/CanaimaMain.jpg" alt="NaviLoading" 
+                                            align="middle" class="selec-elem2 img-responsive">
+                                            <div class="selec-elem-name2" align="middle">
+                                                <p>Parque Nacional <br>
+                                                Canaima</p>
+                                            </div>
+                                            <div class="Checkbox selec-checkbox2">
+                                                <label><input type="checkbox" value=""></label>
+                                            </div>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-responsive" id="plazas">
+                        <table class="selec-table table table-bordered">
+                            <thead>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p>
+                                            <img src="../img/Sitios/ObradoiroMain.jpg" alt="NaviLoading" 
+                                            align="middle" class="selec-elem2 img-responsive">
+                                            <div class="selec-elem-name3" align="middle">
+                                                <p>Plaza del <br>
+                                                Obradoiro</p>
+                                            </div>
+                                            <div class="Checkbox selec-checkbox2">
+                                                <label><input type="checkbox" value=""></label>
+                                            </div>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-responsive" id="restaurant">
+                        <table class="selec-table table table-bordered">
+                            <thead>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p>
+                                            <img src="../img/Sitios/MugaritzMain.jpg" alt="NaviLoading" 
+                                            align="middle" class="selec-elem2 img-responsive">
+                                            <div class="selec-elem-name3" align="middle">
+                                                <p>Mugaritz<br></p>
+                                            </div>
+                                            <div class="Checkbox selec-checkbox2">
+                                                <label><input type="checkbox" value=""></label>
+                                            </div>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-5">
+                <a href="./CultunetMain.html" class="listo-btn btn btn-default"role="button">
+                    Enviar
+                </a>
+            </div>
+            <div class="col-xs-5">
+                <img src="../img/navi.png" alt="NaviLoading" 
+                align="right" class="navi-selec img-responsive">
+            </div>
+        </div>
+
+        <div id="footer">
+            <a href="./CultunetMain.html" >
+              <img src="../img/backIcon.png" alt="Regresar" class="img-responsive backIcon">
+            </a>
+            <a href="../MainMenu.html">
+              <img src="../img/homeIcon.png" alt="Inicio" class="img-responsive homeIcon">
+            </a>
+        </div>
+
+
+        <!-- Get jquery and bootstrap JS -->
+        <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            function show(n) {
+                document.getElementById("biblio").style.display="none";
+                document.getElementById("esculturas").style.display="none";
+                document.getElementById("museos").style.display="none";
+                document.getElementById("parques").style.display="none";
+                document.getElementById("plazas").style.display="none";
+                document.getElementById("restaurant").style.display="none";
+                document.getElementById(n).style.display="block";
+            }
+        </script> 
+    </body>
+</html>
