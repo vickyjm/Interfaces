@@ -541,6 +541,8 @@ p {
 	display: none;
 }
 
+/* Botones de las tablas */
+
 .tablaIzq{
 	height: 70px;
 	width: 160px;
@@ -555,4 +557,28 @@ p {
 .tablaDer{
 	margin-top: -69px;
 	margin-left: 120px;
+}
+
+/* Botones de notificaciones de Cultunet */
+.backIconNoti {
+	display:inline;
+	position:relative;
+	left:-90px;
+	top: 3px;
+}
+
+.botonAceptar {
+	display:inline;
+	position:relative;
+	left:-70px;
+}
+
+.botonRechazar {
+	 display:inline;
+	 position:relative;
+	 left:-30px;
+}
+
+.nextIcon {
+	display:inline;
 }

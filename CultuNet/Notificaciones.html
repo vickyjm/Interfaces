@@ -25,13 +25,17 @@
                     </div>
                 </div>
                 <div class="col-xs-3 noti-col">
+                    <a data-toggle="modal" data-target="#torreHercules">
                     <img src="../img/CultuNet/torreHercules.jpg" align="right" alt="user1" class="user-img img-responsive">
+                    </a>
                     <div class="noti-name" style="text-align: center;">
                         Torre de Hércules
                     </div>
                 </div>
                 <div class="col-xs-3 noti-col">
+                    <a data-toggle="modal" data-target="#plazaFrancia">
                     <img src="../img/CultuNet/plazaFrancia.jpg" align="right" alt="user1" class="user-img img-responsive">
+                    </a>
                     <div class="noti-name" style="text-align: center;">
                         Plaza Francia
                     </div>
@@ -48,7 +52,9 @@
                     </div>
                 </div>
                 <div class="col-xs-3 noti-col">
+                    <a data-toggle="modal" data-target="#museoNiños">
                     <img src="../img/CultuNet/museoNiños.jpg" align="right" alt="user1" class="user-img img-responsive">
+                    </a>
                     <div class="noti-name" style="text-align: center;">
                         Museo de los Niños
                     </div>
@@ -68,13 +74,17 @@
                     </div>
                 </div>
                 <div class="col-xs-3 noti-col">
+                    <a data-toggle="modal" data-target="#elCalvario">
                     <img src="../img/CultuNet/elCalvario.jpg" align="right" alt="user1" class="user-img img-responsive">
+                    </a>
                     <div class="noti-name" style="text-align: center;">
                         Parque El Calvario
                     </div>
                 </div>
                 <div class="col-xs-3 noti-col">
+                    <a data-toggle="modal" data-target="#jesusSoto">
                     <img src="../img/CultuNet/jesusSoto.jpg" align="right" alt="user1" class="user-img img-responsive">
+                    </a>
                     <div class="noti-name" style="text-align: center;">
                         Museo Jesús Soto
                     </div>
@@ -87,7 +97,9 @@
         <div class="container" style="margin-bottom: 55px;">
             <div class="row">
                 <div class="col-xs-5">
-                    <img src="../img/navi.png" align="right" alt="naviNet" class="navi-cultunet img-responsive">
+                    <a data-toggle="modal" data-target="#tutorialCultuNet">
+                        <img src="../img/navi.png" align="right" alt="naviNet" class="navi-cultunet img-responsive">
+                    </a>
                 </div>
                 
                 <a href="./CultunetMain.html">
@@ -103,16 +115,211 @@
               <img src="../img/homeIcon.png" alt="Inicio" class="img-responsive homeIcon">
             </a>
         </div>
+
+        <!-- Modals -->
+        <div id="tutorialCultuNet" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Tutorial de CultuNet (1/3)</h4>
+              </div>
+              <div class="modal-body">
+                <p>Bienvenido a CultuNet. En esta modalidad podrás recibir y enviar lugares tanto a tus amigos como a desconocidos.</p>
+                <p>
+                    Esta vista corresponde a las notificaciones de lugares enviados por tus amigos. Podrás ver cada uno y los mensajes que cada uno te haya escrito.
+                </p>
+              </div>
+              <div class="modal-footer">
+                 <ul class="pager">
+                  <li class="next"><a data-target="#tutorialCultuNet2" data-toggle="modal" onclick='show("tutorialCultuNet");'>Siguiente</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="tutorialCultuNet2" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Tutorial de CultuNet (2/3)</h4>
+              </div>
+              <div class="modal-body">
+                <p>Aquí verás máximo 3 notificaciones que recibes de desconocidos que tengan CultureNav y que hayan pasado cerca de ti con sus dispositivos.</p>
+                <p>
+                    Al darle click a algún lugar puedes decidir si aceptarlo o rechazarlo para incluirlo en tu Cultupedia. También puedes puedes darle a "Saltar Notificaciones" para revisarlas luego.
+                </p>
+              </div>
+              <div class="modal-footer">
+                 <ul class="pager">
+                  <li class="previous"><a data-target="#tutorialCultuNet" data-toggle="modal" onclick='show("tutorialCultuNet2");'>Anterior</a></li>
+                  <li class="next"><a data-target="#tutorialCultuNet3" data-toggle="modal" onclick='show("tutorialCultuNet2");'>Siguiente</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="tutorialCultuNet3" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Tutorial de CultuNet (3/3)</h4>
+              </div>
+              <div class="modal-body">
+                <p>Lista de amigos con CultureNav. !Puedes enviarles tus sitios favoritos!.</p>
+                <p>
+                    Notificaciones pendientes. Al darle aqui vuelves al paso 1.
+                </p>
+                <p>Selecciona los CultuLugares, escribe un mensaje y ¡listo! se enviará todo a tu amigo.</p>
+              </div>
+              <div class="modal-footer">
+                 <ul class="pager">
+                  <li class="previous"><a data-target="#tutorialCultuNet2" data-toggle="modal" onclick='show("tutorialCultuNet3");'>Anterior</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modals de notificaciones -->
+        <div id="torreHercules" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="../img/CultuNet/torreHercules.jpg" class="img-responsive" width="30%"><br>
+                <strong>Torre de Hércules</strong>
+                <img src="../img/CultuNet/barraNotificacion.png" class="img-responsive">
+                <strong>¡Mensaje de Jimmy Jones!</strong> <br>
+                ¡Hola! Este museo tiene cosas geniales para que los niños se diviertan. 
+              </div>
+              <div class="modal-footer">
+                <a data-dismiss="modal">
+                    <img src="../img/CultuNet/botonAceptar.png" class="img-responsive botonAceptar">
+                </a>
+                <a data-dismiss="modal">
+                    <img src="../img/CultuNet/botonRechazar.png" class="img-responsive botonRechazar">
+                </a>
+                <a data-target="#plazaFrancia" data-toggle="modal" onclick='show("torreHercules");'>
+                    <img src="../img/nextIcon.png" class="img-responsive nextIcon">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="plazaFrancia" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="../img/CultuNet/plazaFrancia.jpg" class="img-responsive" width="30%"><br>
+                <strong>Plaza Francia de Caracas</strong>
+                <img src="../img/CultuNet/barraNotificacion.png" class="img-responsive">
+                <strong>¡Mensaje de Jimmy Jones!</strong> <br>
+                ¡Hola! Este museo tiene cosas geniales para que los niños se diviertan. 
+              </div>
+              <div class="modal-footer">
+                <a data-target="#torreHercules" data-toggle="modal" onclick='show("plazaFrancia");'>
+                    <img src="../img/backIcon.png" class="img-responsive backIconNoti">
+                <a>
+                <a data-dismiss="modal">
+                    <img src="../img/CultuNet/botonAceptar.png" class="img-responsive botonAceptar">
+                </a>
+                <a data-dismiss="modal">
+                    <img src="../img/CultuNet/botonRechazar.png" class="img-responsive botonRechazar">
+                </a>
+                <a data-target="#museoNiños" data-toggle="modal" onclick='show("plazaFrancia");'>
+                    <img src="../img/nextIcon.png" class="img-responsive nextIcon">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="museoNiños" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="../img/CultuNet/museoNiños.jpg" class="img-responsive" width="30%"><br>
+                <strong>Museo de los Niños</strong>
+                <img src="../img/CultuNet/barraNotificacion.png" class="img-responsive">
+                <strong>¡Mensaje de Iker Casillas!</strong> <br>
+                ¡Hola! Este museo tiene cosas geniales para que los niños se diviertan. 
+              </div>
+              <div class="modal-footer">
+                <a data-target="#plazaFrancia" data-toggle="modal" onclick='show("museoNiños");'>
+                    <img src="../img/backIcon.png" class="img-responsive backIconNoti">
+                <a>
+                <a data-dismiss="modal">
+                    <img src="../img/CultuNet/botonAceptar.png" class="img-responsive botonAceptar">
+                </a>
+                <a data-dismiss="modal">
+                    <img src="../img/CultuNet/botonRechazar.png" class="img-responsive botonRechazar">
+                </a>
+                <a data-target="#elCalvario" data-toggle="modal" onclick='show("museoNiños");'>
+                    <img src="../img/nextIcon.png" class="img-responsive nextIcon">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="elCalvario" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="../img/CultuNet/elCalvario.jpg" class="img-responsive" width="30%">
+                <strong>Parque El Calvario</strong>
+              </div>
+              <div class="modal-footer">
+                <a data-target="#museoNiños" data-toggle="modal" onclick='show("elCalvario");'>
+                    <img src="../img/backIcon.png" class="img-responsive backIconNoti">
+                <a>
+                <a data-dismiss="modal">
+                    <img src="../img/CultuNet/botonAceptar.png" class="img-responsive botonAceptar">
+                </a>
+                <a data-dismiss="modal">
+                    <img src="../img/CultuNet/botonRechazar.png" class="img-responsive botonRechazar" >
+                </a>
+                <a data-target="#jesusSoto" data-toggle="modal" onclick='show("elCalvario");'>
+                    <img src="../img/nextIcon.png" class="img-responsive nextIcon">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="jesusSoto" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="../img/CultuNet/jesusSoto.jpg" class="img-responsive" width="30%">
+                <strong>Museo de Arte Moderno Jesús Soto</strong>
+              </div>
+              <div class="modal-footer">
+                <a data-target="#elCalvario" data-toggle="modal" onclick='show("jesusSoto");'>
+                    <img src="../img/backIcon.png" class="img-responsive backIconNoti" style="margin-left:-120px;">
+                <a>
+                <a data-dismiss="modal">
+                    <img src="../img/CultuNet/botonAceptar.png" class="img-responsive botonAceptar" style="margin-left:-90px;">
+                </a>
+                <a data-dismiss="modal">
+                    <img src="../img/CultuNet/botonRechazar.png" class="img-responsive botonRechazar" style="margin-right:20px;">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- Get jquery and bootstrap JS -->
         <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
         <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script type="text/javascript">
             function show(modal1) {
                 $('#'+modal1).modal('hide');
-            }
-            function favoritos(icono1,icono2){
-                $('#'+icono1).hide();
-                $('#'+icono2).show();
             }
         </script>
     </body>
