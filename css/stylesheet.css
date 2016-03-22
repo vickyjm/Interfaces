@@ -12,6 +12,10 @@ Fuente: GeosansLight*/
 @import "bootstrap";
 @font-face {font-family:GeosansLight; src: url('GeosansLight.ttf');}
 
+html {
+  font-family: GeosansLight;
+}
+
 .body {
 	width:100%;
 }
@@ -535,4 +539,20 @@ p {
 
 #esculturas, #museos, #parques, #plazas, #restaurant, #busqueda,#favorito, #favorito2{
 	display: none;
+}
+
+.tablaIzq{
+	height: 70px;
+	width: 160px;
+	margin-left: -10px;
+}
+
+.tablaIzq a img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.tablaDer{
+	margin-top: -69px;
+	margin-left: 120px;
 }
