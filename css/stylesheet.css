@@ -12,8 +12,9 @@ Fuente: GeosansLight*/
 @import "bootstrap";
 @font-face {font-family:GeosansLight; src: url('GeosansLight.ttf');}
 
-html {
+html, body {
   font-family: GeosansLight;
+  src: url('GeosansLight.ttf');
 }
 
 .body {
@@ -564,7 +565,6 @@ p {
 	display:inline;
 	position:relative;
 	left:-90px;
-	top: 3px;
 }
 
 .botonAceptar {

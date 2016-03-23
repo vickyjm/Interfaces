@@ -24,10 +24,9 @@
                 <span class="glyphicon glyphicon-minus zoom" aria-hidden="true"></span>
             </div>
             <div class="col-xs-4">
-                <img src="../img/navi2.png" alt="NaviCultuMap" class="navi-cultumap img-responsive">
-            </div>
-            <div class="col-xs-2">
-                <span class="glyphicon glyphicon-map-marker zoom" aria-hidden="true"></span>
+                <a data-toggle="modal" data-target="#tutorialCultuMap">
+                    <img src="../img/navi2.png" alt="NaviCultuMap" class="navi-cultumap img-responsive">
+                </a>
             </div>
         </div>
         <div class="search-row row">
@@ -80,6 +79,29 @@
               <img src="../img/homeIcon.png" alt="Inicio" class="img-responsive homeIcon">
            </a>
         </div>
+
+        <!-- Modals -->
+        <div id="tutorialCultuMap" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                  <span class="glyphicon glyphicon-remove"></span>
+                </button>
+                <h4 class="modal-title">Tutorial de CultuMap</h4>
+              </div>
+              <div class="modal-body">
+                <p>Bienvenido a CultuMap, en esta modalidad tendrás la oportunidad de ver las ubicaciones de todos los CultuLugares, por categorías. </p>
+
+                <p>El cursor indica tu ubicacion actual, similar a un GPS. Seleccionar un elemento abrira un menu donde podras solicitar al sistema de GPS que te guie al lugar seleccionado.</p>
+
+                <p>Este botón te permite regresar a tu posicion actual en caso de que no la encuentres. Los iconos en la parte inferior de la pantalla
+    te permitirán filtrar los elementos mostrados en el mapa por categoria.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- Get jquery and bootstrap JS -->
         <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
         <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
