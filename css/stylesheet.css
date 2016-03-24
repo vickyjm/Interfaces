@@ -141,7 +141,7 @@ html, body {
 .museo-elem {
 	width : 75px;
 	height: 75px;
-	margin-left: 20%;
+	margin-left: 10%;
 }
 
 .museo-elem-name {
@@ -167,6 +167,7 @@ html, body {
 	border: 1px solid white;
 	margin-top: 0.2%;
 }
+
 
 .cat-elem-name {
 	margin-left : 7%;
@@ -441,7 +442,11 @@ p {
 
 .selec-search-bar {
 	margin-left: 5%;
-	width: 50%;
+	width: 100%;
+}
+
+.buscar-form {
+	width: 70%;
 }
 
 .selec-col {
