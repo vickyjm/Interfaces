@@ -18,10 +18,14 @@
         </div>
         <div class="row">
             <div class="col-xs-2">
-                <span class="glyphicon glyphicon-plus zoom" aria-hidden="true"></span>
+                <a href="#" onclick='acercar();'>
+                    <span class="glyphicon glyphicon-plus zoom" aria-hidden="true"></span>
+                </a>
             </div>
             <div class="col-xs-2">
-                <span class="glyphicon glyphicon-minus zoom" aria-hidden="true"></span>
+                <a href="#" onclick='alejar();'>
+                    <span class="glyphicon glyphicon-minus zoom" aria-hidden="true"></span>
+                </a>
             </div>
             <div class="col-xs-4">
                 <a data-toggle="modal" data-target="#tutorialCultuMap">
@@ -31,7 +35,7 @@
         </div>
         <div class="search-row row">
             <div class="col-sm-2">
-                <form class="navbar-form navbar-left" role="search">
+                <form id="buscar" class="navbar-form navbar-left" role="search">
                     <div class="search-bar form-group">
                         <input type="text" class="form-control" placeholder="Buscar">
                     </div>
@@ -39,8 +43,10 @@
             </div>
         </div>
         <div class="container">
-            <img src="../img/Mapas/mapaSurAmerica.png" alt="Mapa1"
-                 class="cultumap-map img-responsive">
+            <img src="../img/Mapas/mapaVenezuela.png" alt="Mapa1" class="cultumap-map img-responsive" id="mapa1">
+            <img src="../img/Mapas/mapaCaracas.png" alt="Mapa2" class="cultu-map img-responsive" id="mapa2">
+            <img src="../img/Mapas/mapaCaracas2.png" alt="Mapa3" class="cultu-map img-responsive" id="mapa3">
+            <img src="../img/Mapas/mapaGalicia.png" alt="Mapa4" class="cultu-map img-responsive" id="mapa4">
         </div>  
         <div class="container" style="margin-bottom: 55px;">
              <div class="row">
@@ -106,12 +112,36 @@
         <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
         <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script type="text/javascript">
-            function show(modal1) {
-                $('#'+modal1).modal('hide');
+            document.getElementById('buscar').onsubmit = function() {
+                document.getElementById("mapa1").style.display="none";
+                document.getElementById("mapa3").style.display="none";
+                document.getElementById("mapa2").style.display="none";
+                document.getElementById("mapa4").style.display="block";
+                return false;
             }
-            function favoritos(icono1,icono2){
-                $('#'+icono1).hide();
-                $('#'+icono2).show();
+        </script>
+        <script type="text/javascript">
+            function acercar(){
+                if($('#mapa1').css('display') == 'block'){
+                    document.getElementById("mapa1").style.display="none";
+                    document.getElementById("mapa3").style.display="none";
+                    document.getElementById("mapa2").style.display="block";
+                } else if ($('#mapa2').css('display') == 'block'){
+                    document.getElementById("mapa1").style.display="none";
+                    document.getElementById("mapa2").style.display="none";
+                    document.getElementById("mapa3").style.display="block";
+                }
+            }
+            function alejar(){
+                if($('#mapa2').css('display') == 'block'){
+                    document.getElementById("mapa2").style.display="none";
+                    document.getElementById("mapa3").style.display="none";
+                    document.getElementById("mapa1").style.display="block";
+                } else if ($('#mapa3').css('display') == 'block'){
+                    document.getElementById("mapa1").style.display="none";
+                    document.getElementById("mapa3").style.display="none";
+                    document.getElementById("mapa2").style.display="block";
+                }
             }
         </script>
     </body>
