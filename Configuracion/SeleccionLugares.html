@@ -18,9 +18,11 @@
         </div>
         <div class="selec-cont container">
             <div class="row">
-                <div class="selec-search-bar form-group">
-                    <input type="text" class="form-control" placeholder="Buscar">
-                </div>
+                <form id="buscarEscult" class="navbar-form navbar-left" role="search" id="buscarEscult">
+                    <div class="selec-search-bar form-group">
+                        <input type="text" class="form-control" placeholder="Buscar">
+                    </div>
+                </form>
             </div>
             <div class="row">
                 <div class="col-xs-3 tablaIzq">
@@ -124,6 +126,29 @@
                             </tbody>
                         </table>
                     </div>
+                    <div class="table-responsive" id="busqueda">
+                        <table class="cat-table table table-bordered">
+                            <thead>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p>
+                                            <img src="../img/Sitios/CristoRedMain.jpg" alt="NaviLoading" 
+                                            align="middle" class="selec-elem2 img-responsive">
+                                            <div class="selec-elem-name4" align="middle">
+                                                Cristo<br> Redentor
+                                            </div>
+                                            <div class="Checkbox selec-checkbox2">
+                                                <label><input type="checkbox" value=""></label>
+                                            </div>
+                                            <br>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     <div class="table-responsive" id="parques">
                         <table class="selec-table table table-bordered">
                             <thead>
@@ -219,6 +244,18 @@
         <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
         <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script type="text/javascript">
+            document.getElementById('buscarEscult').onsubmit = function() {
+                $('#esculturas').hide();
+                $('#biblio').hide();
+                $('#museos').hide();
+                $('#parques').hide();
+                $('#plazas').hide();
+                $('#restaurant').hide();
+                $('#busqueda').show();
+                return false;
+            }
+        </script>
+        <script type="text/javascript">
             function show(n) {
                 document.getElementById("biblio").style.display="none";
                 document.getElementById("esculturas").style.display="none";
@@ -227,6 +264,7 @@
                 document.getElementById("plazas").style.display="none";
                 document.getElementById("restaurant").style.display="none";
                 document.getElementById(n).style.display="block";
+                document.getElementById("busqueda").style.display="none";
             }
         </script> 
     </body>

@@ -12,19 +12,19 @@
     <body class="cultunet-body">
         <div class="container">
                 <img src="../img/CultuNet/tituloAmigos.png" alt="LibroCat" 
-                align="left" class="cat-title-img img-responsive">
+                align="left" class="cat-title-img img-responsive" id="barraAmigos">
                 <img src="../img/cultuNetIconBlanco.png" alt="LibroCat" 
                 align="right" class="search-title-img img-responsive">
         </div>
         <div class="container">
-            <div class="row user-row">
+            <div class="row user-row" id="jimmy">
                 <div  class="col-xs-4 pic-col">
                     <img src="../img/CultuNet/usuario1.jpg" align="right" alt="user1" class="user-img img-responsive">
                     <div class="noti-name">
                         Jimmy Jones
                     </div>
                 </div>
-                <div class="col-xs-3 noti-col">
+                <div class="col-xs-3 noti-col" id="hercules">
                     <a data-toggle="modal" data-target="#torreHercules">
                     <img src="../img/CultuNet/torreHercules.jpg" align="right" alt="user1" class="user-img img-responsive">
                     </a>
@@ -32,7 +32,7 @@
                         Torre de Hércules
                     </div>
                 </div>
-                <div class="col-xs-3 noti-col">
+                <div class="col-xs-3 noti-col" id="francia">
                     <a data-toggle="modal" data-target="#plazaFrancia">
                     <img src="../img/CultuNet/plazaFrancia.jpg" align="right" alt="user1" class="user-img img-responsive">
                     </a>
@@ -41,17 +41,17 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="barra">
                 <img src="../img/CultuNet/barraNotificacion.png" align="left" alt="barra" class="separador img-responsive">
             </div>
-            <div class="row user-row">
+            <div class="row user-row" id="casillas">
                 <div  class="col-xs-4 pic-col">
                     <img src="../img/CultuNet/usuario3.jpg" align="right" alt="user1" class="user-img img-responsive">
                     <div class="noti-name">
                         Iker Casillas
                     </div>
                 </div>
-                <div class="col-xs-3 noti-col">
+                <div class="col-xs-3 noti-col" id="niños">
                     <a data-toggle="modal" data-target="#museoNiños">
                     <img src="../img/CultuNet/museoNiños.jpg" align="right" alt="user1" class="user-img img-responsive">
                     </a>
@@ -61,11 +61,11 @@
                 </div>
             </div>
         </div>
-         <div class="container">
+         <div class="container" id="barra2">
                 <img src="../img/CultuNet/tituloDesconocidos.png" alt="LibroCat" 
                 align="left" class="cat-title-img img-responsive">
         </div>
-        <div class="container">
+        <div class="container" id="anne">
             <div class="row user-row">
                 <div  class="col-xs-4 pic-col">
                     <img src="../img/CultuNet/usuario6.jpg" align="right" alt="user1" class="user-img img-responsive">
@@ -73,7 +73,7 @@
                         Anne Pickles
                     </div>
                 </div>
-                <div class="col-xs-3 noti-col">
+                <div class="col-xs-3 noti-col" id="calvario">
                     <a data-toggle="modal" data-target="#elCalvario">
                     <img src="../img/CultuNet/elCalvario.jpg" align="right" alt="user1" class="user-img img-responsive">
                     </a>
@@ -81,7 +81,7 @@
                         Parque El Calvario
                     </div>
                 </div>
-                <div class="col-xs-3 noti-col">
+                <div class="col-xs-3 noti-col" id="jesus">
                     <a data-toggle="modal" data-target="#jesusSoto">
                     <img src="../img/CultuNet/jesusSoto.jpg" align="right" alt="user1" class="user-img img-responsive">
                     </a>
@@ -212,13 +212,13 @@
                 </ul></p>
                 <img src="../img/CultuNet/barraNotificacion.png" class="img-responsive">
                 <strong>¡Mensaje de Jimmy Jones!</strong> <br>
-                ¡Hola! Este museo tiene cosas geniales para que los niños se diviertan. 
+                Subir tantos escalones vale la pena. ¡La vista desde la torre es genial!
               </div>
               <div class="modal-footer">
-                <a data-dismiss="modal">
+                <a data-dismiss="modal" onclick='ocultarNoti("hercules")'>
                     <img src="../img/CultuNet/botonAceptar2.png" class="img-responsive botonAceptar">
                 </a>
-                <a data-dismiss="modal">
+                <a data-dismiss="modal" onclick='ocultarNoti("hercules")'>
                     <img src="../img/CultuNet/botonRechazar2.png" class="img-responsive botonRechazar">
                 </a>
                 <a data-target="#plazaFrancia" data-toggle="modal" onclick='show("torreHercules");'>
@@ -239,20 +239,23 @@
                 <h4 class="modal-title">Plaza Francia de Caracas</h4>
               </div>
               <div class="modal-body">
-                <img src="../img/CultuNet/plazaFrancia.jpg" class="img-responsive" width="30%"><br>
-                <strong>Plaza Francia de Caracas</strong>
+                <img src="../img/CultuNet/plazaFrancia.jpg" 
+                                  style="float:left;margin-right:20px;" class="img-responsive" width="30%">
+                <p><ul class="list-unstyled">
+                    <li><strong>Dirección:</strong> Avenida Luis Roche, Caracas, Venezuela</li>
+                </ul></p>
                 <img src="../img/CultuNet/barraNotificacion.png" class="img-responsive">
                 <strong>¡Mensaje de Jimmy Jones!</strong> <br>
-                ¡Hola! Este museo tiene cosas geniales para que los niños se diviertan. 
+                ¡Hola! Esta es una de mis plazas favoritas de Caracas. ¡Te va a encantar!
               </div>
               <div class="modal-footer">
                 <a data-target="#torreHercules" data-toggle="modal" onclick='show("plazaFrancia");'>
                     <img src="../img/backIcon.png" class="img-responsive backIconNoti">
                 <a>
-                <a data-dismiss="modal">
+                <a data-dismiss="modal" onclick='ocultarNoti("francia")'>
                     <img src="../img/CultuNet/botonAceptar2.png" class="img-responsive botonAceptar">
                 </a>
-                <a data-dismiss="modal">
+                <a data-dismiss="modal" onclick='ocultarNoti("francia")'>
                     <img src="../img/CultuNet/botonRechazar2.png" class="img-responsive botonRechazar">
                 </a>
                 <a data-target="#museoNiños" data-toggle="modal" onclick='show("plazaFrancia");'>
@@ -273,8 +276,14 @@
                 <h4 class="modal-title">Museo de los Niños</h4>
               </div>
               <div class="modal-body">
-                <img src="../img/CultuNet/museoNiños.jpg" class="img-responsive" width="30%"><br>
-                <strong>Museo de los Niños</strong>
+                <img src="../img/CultuNet/museoNiños.jpg" 
+                                    style="float:left;margin-right:20px;" class="img-responsive" width="30%">
+                <p><ul class="list-unstyled">
+                    <li><strong>Dirección:</strong> Parque Central, Av Bolívar, Caracas, Venezuela</li>
+                    <li><strong>Inauguración:</strong> 8 de mayo de 1982</li>
+                    <li><strong>Horario:</strong> Todos los días 10-17h</li>
+                    <li><strong>Teléfono:</strong> 0212-5753022</li>
+                </ul></p>
                 <img src="../img/CultuNet/barraNotificacion.png" class="img-responsive">
                 <strong>¡Mensaje de Iker Casillas!</strong> <br>
                 ¡Hola! Este museo tiene cosas geniales para que los niños se diviertan. 
@@ -283,10 +292,10 @@
                 <a data-target="#plazaFrancia" data-toggle="modal" onclick='show("museoNiños");'>
                     <img src="../img/backIcon.png" class="img-responsive backIconNoti">
                 <a>
-                <a data-dismiss="modal">
+                <a data-dismiss="modal" onclick='ocultarNoti("niños")'>
                     <img src="../img/CultuNet/botonAceptar2.png" class="img-responsive botonAceptar">
                 </a>
-                <a data-dismiss="modal">
+                <a data-dismiss="modal" onclick='ocultarNoti("niños")'>
                     <img src="../img/CultuNet/botonRechazar2.png" class="img-responsive botonRechazar">
                 </a>
                 <a data-target="#elCalvario" data-toggle="modal" onclick='show("museoNiños");'>
@@ -307,17 +316,23 @@
                 <h4 class="modal-title">Parque El Calvario</h4>
               </div>
               <div class="modal-body">
-                <img src="../img/CultuNet/elCalvario.jpg" class="img-responsive" width="30%">
-                <strong>Parque El Calvario</strong>
+                <img src="../img/CultuNet/elCalvario.jpg" 
+                                  style="float:left;margin-right:20px;" class="img-responsive" width="30%">
+                <p><ul class="list-unstyled">
+                    <li><strong>Dirección:</strong> Parque Central, Av Bolívar, Caracas, Venezuela</li>
+                    <li><strong>Inauguración:</strong> 8 de mayo de 1982</li>
+                    <li><strong>Horario:</strong> Todos los días 10-17h</li>
+                    <li><strong>Teléfono:</strong> 0212-5753022</li>
+                </ul></p>
               </div>
               <div class="modal-footer">
                 <a data-target="#museoNiños" data-toggle="modal" onclick='show("elCalvario");'>
                     <img src="../img/backIcon.png" class="img-responsive backIconNoti">
                 <a>
-                <a data-dismiss="modal">
+                <a data-dismiss="modal" onclick='ocultarNoti("calvario")'>
                     <img src="../img/CultuNet/botonAceptar2.png" class="img-responsive botonAceptar">
                 </a>
-                <a data-dismiss="modal">
+                <a data-dismiss="modal" onclick='ocultarNoti("calvario")'>
                     <img src="../img/CultuNet/botonRechazar2.png" class="img-responsive botonRechazar" >
                 </a>
                 <a data-target="#jesusSoto" data-toggle="modal" onclick='show("elCalvario");'>
@@ -338,17 +353,21 @@
                 <h4 class="modal-title">Museo de Arte Moderno Jesús Soto</h4>
               </div>
               <div class="modal-body">
-                <img src="../img/CultuNet/jesusSoto.jpg" class="img-responsive" width="30%">
-                <strong>Museo de Arte Moderno Jesús Soto</strong>
+                <img src="../img/CultuNet/jesusSoto.jpg" 
+                                  style="float:left;margin-right:20px;" class="img-responsive" width="30%">
+                <p><ul class="list-unstyled">
+                    <li><strong>Dirección:</strong> Avenida Germania, Cd Bolívar</li>
+                    <li><strong>Teléfono:</strong> 0285-6320518</li>
+                </ul></p>
               </div>
               <div class="modal-footer">
                 <a data-target="#elCalvario" data-toggle="modal" onclick='show("jesusSoto");'>
                     <img src="../img/backIcon.png" class="img-responsive backIconNoti" style="margin-left:-120px;">
-                <a>
-                <a data-dismiss="modal">
+                </a>
+                <a data-dismiss="modal" onclick='ocultarNoti("jesus")'>
                     <img src="../img/CultuNet/botonAceptar2.png" class="img-responsive botonAceptar" style="margin-left:-90px;">
                 </a>
-                <a data-dismiss="modal">
+                <a data-dismiss="modal" onclick='ocultarNoti("jesus")'>
                     <img src="../img/CultuNet/botonRechazar2.png" class="img-responsive botonRechazar" style="margin-right:20px;">
                 </a>
               </div>
@@ -362,6 +381,26 @@
         <script type="text/javascript">
             function show(modal1) {
                 $('#'+modal1).modal('hide');
+            }
+            function ocultarNoti(notiId){
+              $('#'+notiId).hide();
+              if(notiId=="niños"){
+                $('#casillas').hide();
+                $('#barra').hide();
+              } else if ((notiId=="hercules") || (notiId=="francia")){
+                if ($("#hercules").is(":hidden") && $("#francia").is(":hidden")){
+                  $("#jimmy").hide();
+                  $("#barra").hide();
+                }
+              } else {
+                if ($("#calvario").is(":hidden") && $("#jesus").is(":hidden")){
+                  $("#anne").hide();
+                  $("#barra2").hide();
+                }
+              }
+              if ($("#jimmy").is(":hidden") && $("#casillas").is(":hidden")){
+                $("#barraAmigos").hide();
+              }
             }
         </script>
     </body>
