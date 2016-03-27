@@ -1,0 +1,33 @@
+Orden de la presentacion : 
+
+1. Explicacion breve del app y sus funcionalidades antes de mostrar nada.
+2. Mostrar pantalla de loading brevemente.
+3. Ir al Menu principal, mostrar el tutorialsito e indicar las 3 (4 con opciones) modalidades.
+4. Cultupedia :
+	4.1. Mostrar primero el tutorial sin leerlo, solo mostrar que existe.
+	4.2. Usar el boton de shuffle y que se muestre una categoria (Esculturas en este caso).
+	4.3. En esculturas mostrar la vista, mostrar que sirve el boton de favorito y las cosas de abajo.
+	4.4. Darle click al cristo redentor y mostrar la ventanita y la pantalla de vista con mas informacion.
+	4.5. Pasar a la vista de plazas para hacer uso del boton de Ubicacion.
+	4.6. Pasar a Museos y mostrar que en la vista de "Mas informacion" se muestran las obras.
+
+5. (Darle al boton de home antes). Entrar en CultuMap.
+	5.1. Mostrar la vista y los botones.
+	5.2. Mostrar que tiene tutorial tambien.
+	5.3. Hacer uso del zoom.
+	5.4. Hacer uso de la barra de busqueda.
+
+6. (Dandole al boton de Regresar o Home). Entrar en CultuNet.
+	6.1. Explicar que la primera vista que aparece es la de notificaciones y no la principal.
+	6.2. En la vista de notificaciones mostrar dos notificaciones, una se acepta y la otra se rechaza.
+	6.3. Luego el resto se saltan con el boton de saltar notificaciones.
+	6.4. En la lista de amigos mostrar el uso de la barra de busqueda.
+	6.5. Mostrar el uso del boton de enviar un lugar y enviarle el Cristo Redentor.
+
+7. Volver al menu principal. Entrar a configuraciones.
+	7.1. Mostrar la vista, explicar que no tiene tutorial porque es una pagina de configuraciones basica.
+	7.2. Mostrar que los checkboxes y los sliders sirven.
+	7.3. Elegir Cultulugares favoritos (Arco del Triunfo, Louvre y Cristo Redentor).
+	7.4. Volver al menu principal.
+
+8. Concluir despidiendonos y sacando buena nota :D.
