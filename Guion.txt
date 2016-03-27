@@ -8,8 +8,9 @@ Orden de la presentacion :
 	4.2. Usar el boton de shuffle y que se muestre una categoria (Esculturas en este caso).
 	4.3. En esculturas mostrar la vista, mostrar que sirve el boton de favorito y las cosas de abajo.
 	4.4. Darle click al cristo redentor y mostrar la ventanita y la pantalla de vista con mas informacion.
-	4.5. Pasar a la vista de plazas para hacer uso del boton de Ubicacion.
-	4.6. Pasar a Museos y mostrar que en la vista de "Mas informacion" se muestran las obras.
+	4.5. Mostrar que la barra de busqueda sirve poniendo "Cristo".
+	4.6. Pasar a la vista de plazas para hacer uso del boton de Ubicacion.
+	4.7. Pasar a Museos y mostrar que en la vista de "Mas informacion" se muestran las obras.
 
 5. (Darle al boton de home antes). Entrar en CultuMap.
 	5.1. Mostrar la vista y los botones.
@@ -21,7 +22,7 @@ Orden de la presentacion :
 	6.1. Explicar que la primera vista que aparece es la de notificaciones y no la principal.
 	6.2. En la vista de notificaciones mostrar dos notificaciones, una se acepta y la otra se rechaza.
 	6.3. Luego el resto se saltan con el boton de saltar notificaciones.
-	6.4. En la lista de amigos mostrar el uso de la barra de busqueda.
+	6.4. En la lista de amigos mostrar el uso de la barra de busqueda (Jessica Rabbit)
 	6.5. Mostrar el uso del boton de enviar un lugar y enviarle el Cristo Redentor.
 
 7. Volver al menu principal. Entrar a configuraciones.
